@@ -1,0 +1,119 @@
+
+.icon5{
+      display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start; 
+    font-size: 30px;
+    z-index: 5;
+    top: 80px;
+    right: 20px;
+    position: fixed;
+  
+}
+.icon5 i{
+  text-align: center;
+  color: rgb(15, 96, 161);
+  font-size: 45px;
+  background-color: rgb(172, 171, 171);
+ 
+}
+
+
+.a55{
+text-transform: capitalize;
+color: rgb(190, 57, 57);
+text-decoration: overline;
+}
+
+.dall{
+  margin-top: 75px;
+}
+.hhh{
+  position: relative;
+}
+
+.a55{
+    text-decoration: none;
+} 
+ .pf {
+        letter-spacing: 3px;
+      }
+      .diff{
+        width: 100%; 
+        height: 500px;
+      }
+      .img55{
+        background-image: url(../img/grlanding.jpeg) ;
+        background-attachment: fixed;
+        height: 500px;
+        width:100%;
+        background-size:contain;
+        
+    
+      }
+      .qwe{
+        background-image: url(../img//Vision-2030-1000x630.png);
+        background-attachment: fixed ;
+        height:500px;
+        width: 100%;
+        background-size: contain; 
+      }
+      .doo{
+        position: relative ;
+      }
+      .xx::after{
+        top: 0 ;
+        left: 0 ;
+      }
+      .xx:hover::after,.xx:hover::before{
+        opacity:0.5 ;
+        transition: 1s ;
+        width: 100% ;
+        height: 100% ;
+      }
+      .xx::before,.xx::after{
+        content: "" ;
+        position: absolute ;
+        width: 0 ;
+        height: 0 ;
+        background-color: black ;
+        opacity: 0 ;
+      }
+      .xx::before{
+        bottom: 0 ;
+        right: 0 ;
+      }
+.dd:hover{
+   transform: scale(0.9,0.9);
+   transition: 2s;
+}
+.rr{
+  transform: skewx(8deg);
+}
+.kkk{
+  width: 100%;
+  height: 800px;
+}
+.card-title{
+  color: rgb(79, 134, 216);
+  font-size: 36px;
+ text-transform: capitalize;
+}
+.card-text1{
+  color: rgb(41, 41, 41);
+
+  font-size: 18px;
+}
+.card-text2{
+  color: rgb(13, 58, 109);
+}
+h1{
+  color: white;
+}
+.hg{
+  color: rgb(65, 116, 182);
+}
+.hgg{
+  color: rgb(34, 212, 174);
+}

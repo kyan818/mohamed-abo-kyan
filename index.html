@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
+  
+</head>
+<body>
+ 
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark opacity-85 fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)" >
+        <img src="img/Rpopooppo.jpeg" width="100" height="50"alt="...."/>
+      </a>
+      <span class="navbar-text border-end pe-2">Saudi Vision 2030 </span>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mynavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <div class="dropdown">
+          <button
+            type="button"
+            class="btn btn-dark dropdown-toggle"
+            data-bs-toggle="dropdown">
+            About Kingdom
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Know About Kingdom</a></li>
+            <li><a class="dropdown-item" href="#">Rules, Regulations and Policies</a></li>
+            <li><a class="dropdown-item" href="#"> Digital Transformation</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">More...</a></li>
+          </ul>
+        </div>
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="javascript:void(0)"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="javascript:void(0)"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="javascript:void(0)"
+              >Services</a
+            >
+          </li>
+        </ul>
+
+        <form class="d-flex">
+          <input
+            class="form-control me-2"
+            type="text"
+            placeholder="Search"/>
+          <button class="btn btn-dark" type="button">Search</button>
+        </form>
+        <button
+          type="button"
+          class="btn btn-primary "
+          data-bs-toggle="modal"
+          data-bs-target="#myModal" >
+          Login
+        </button>
+      </div>
+    </div>
+    
+  </nav>
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content p-4">
+        <form action="/action_page.php">
+          <div class="mb-3 mt-3">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter email"
+              name="email"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="pwd">Password:</label>
+            <input
+              type="password"
+              class="form-control"
+              id="pwd"
+              placeholder="Enter password"
+              name="pswd"
+            />
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+<div class="dall ">
+  <div id="carouselExampleCaptions" class="carousel slide  hhh">
+   
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    
+    <div class="carousel-inner ">
+      
+      <div class="carousel-item active col-sm-12 ">
+        
+        <img src="img/aerial_view_of_mecca_madina_with_people_hd_ramzan-1366x768.jpg" class="d-block kkk" alt="...">
+        <div class="carousel-caption  bg-dark w-50 opacity-75 m-auto col-sm-12">
+          <h5 >Makkah al-Mukarramah</h5>
+          <p >Makkah is the holiest city in the Islamic world. Every year, millions of Muslims take a pilgrimage to Mecca, called the Hajj. They follow in the footsteps of Muhammad </p>
+        </div>
+      </div>
+      <div class="carousel-item active ">
+        
+        <img src="img/91wfynuPkEL._SL1500_.jpg" class="d-block kkk" alt="...">
+        <div class="carousel-caption  bg-dark w-50 opacity-75 m-auto col-sm-12">
+          <h5>Al-Madinah al-Munawwarah</h5>
+          <p >Medina is generally considered to be the cradle of Islamic culture and civilization,The city is considered to be the second-holiest of three key cities in Islamic tradition </p>
+        </div>
+      </div>
+      <div class="carousel-item active ">
+        <img src="img/ppoopp.jpg" class="d-block kkk" alt="...">
+        <div class="carousel-caption  bg-dark w-50 opacity-75 m-auto  col-sm-12">
+          <h5 >EL-Riyadh</h5>
+          <p >Riyadh is the capital and largest city of Saudi Arabia. It is also the capital of the Riyadh Province and the centre of the Riyadh Governorate </p>
+        </div>
+      </div>
+     
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="icon5">
+     <!-- <a class="a55" href="#"> >soicl-media< </a> -->
+    <a href="#"><i class="fab fa-facebook-square"> </i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-whatsapp-square"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="#"><i class="fab fa-twitter-square"></i></a>
+   
+  
+  </div>
+  <section id="call-to-action" class="call-to-action section accent-background">
+
+     
+<div class="container-fluid bg-tertiary w-100  p-3  bg-body-tertiary rounded">
+  <h1 class="text-center br-50 hg">Presidents of Saudi Arabia</h1>
+</div>
+    <div class="bg-body-tertiary">
+      <div class="card mb-3 m-auto w-50 mt-3   bg-success-subtle rr" >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/OIP (252).jpeg " class="img rounded-start w-100 h-100 ii" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Salman bin Abdulaziz bin Abdulrahman Al Saud</h5>
+              <br>
+              <p class="card-text1"> King of Saudi Arabia VII, Supreme Commander of all military forces, the twentieth ruler of the House of Saud and the twenty-fifth son of the founding King Abdul Aziz bin Abdul Rahman Al Saud by his wife Princess Hessa bint Ahmed Al-Sudairi. He is one of the most important pillars of the Saudi royal family, as the family's secretary and chairman of its council, and personal advisor to the kings of the Kingdom, and he is one of the so-called seven Sudairi sons of King Abdulaziz.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3 m-auto w-50 bg-success-subtle rr">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Mohamed bin Salman bin Abdulaziz Al Saud</h5>
+              <br>
+              <p class="card-text1">Crown Prince of Saudi Arabia and Prime Minister. He chairs the Council of Political and Security Affairs and the Council of Economic and Development Affairs. He is the son of King Salman bin Abdulaziz Al Saud from Fahda bint Falah Al Hathlin.Prince Mohamed bin Salman has made distinguished achievements that have led Saudi Arabia forward since his appointment as Crown Prince,[1] through the establishment of programs and projects aimed at developing the Kingdom .
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="img/27-08-23-952708185.jpg" class="img rounded-start w-100 h-100 ii" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 container-fluid bg-tertiary diff">
+    <div class="container-fluid img55 mt-5 col-sm-12 ">
+
+    </div>
+  </div>
+  
+<div class="container-fluid bg-tertiary w-100  p-3  bg-body-tertiary rounded">
+  <h1 class="text-center br-50 hg">Saudi Arabia’s Development Strategic Plans </h1>
+</div>
+<div class="container-fluid">
+  <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+    <div class="col-xl-10">
+      <div class="text-center bg-tertiary ">
+        <h3 class="card-text2">Saudi Vision 2030</h3>
+        <p class="card-text2">The Kingdom has enormous untapped opportunities and a rich blend of natural resources, in addition to its real wealth of people and society. The Kingdom’s Islamic faith and national unity make it an exceptional nation, making it the core of the Arab and Islamic worlds and the heart of Islam. The Kingdom is confident and with God’s grace, that it can build a brighter future based on Islamic principles. The Kingdom will continue to excel in performing its responsibilities towards pilgrims, and it is proud of its deep-rooted national identity.</p>
+      
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card text-bg-dark container-fluid">
+  <img src="img/vision_website_infographic_1920x732-en.jpg" class="card-img" height="400px" alt="...">
+  <div class="card-img-overlay">
+  
+   
+  </div>
+</div>
+<div class="accordion mt-4 container-fluid" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Vibrant Society
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>With Strong Foundations</strong> The Kingdom’s goal is to enhance and reinvigorate social development in order to build a strong and productive society. The Kingdom will strengthen the core family values, provide education that builds children’s character, and establish empowering health and social care systems.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Thriving Economy
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>With Rewarding Opportunities.</strong>The Kingdom’s children’s skills and competencies are one of the most important and cherished resources. To further this potential, the Kingdom will develop a culture that enhances recognition, provides opportunities for all and helps everyone to gain the necessary skills to achieve their personal goals. The Kingdom also will reinforce the ability of the economy to generate diverse job opportunities and attract global talents and qualified people.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        An Ambitious Nation
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>With effective Government.</strong> The roles and requirements of government have grown significantly since the establishment of the Kingdom of Saudi Arabia. There is always a need to continuously improve and keep pace with rising expectations and face new challenges as well as achieving the high standards of transparency and accountability. In turn, this government is committed to efficiently and effectively managing its finances and create an agile public administration and tracking of its performance.
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-success-subtle w-100  p-3 mt-3  bg-body-tertiary rounded">
+<h1 class="text-center br-50">Opinions in development </h1>
+</div>
+<div class="container-fluid m-auto bg-success-subtle">
+<h2 class="fs-5 text-center">write Opinion <a href="#"class="fs-5 a55">prsse here</a></h2>
+<button type="button" class="btn btn-primary d-block m-auto" data-bs-toggle="modal" data-bs-target="#Modal">
+send Message
+</button>
+<br>
+<label for="comment">Comments:</label>
+<textarea class="form-control" rows="5" id="comment" name="text">Saudi Arabia... The heart of the Arab and Islamic worlds, the investment powerhouse, and the hub connecting three continents.</textarea>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="Modal">
+<div class="modal-dialog">
+  <div class="modal-content">
+
+    <!-- Modal Header -->
+    <div class="modal-header">
+      <h4 class="modal-title">copied text</h4>
+      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+    </div>
+
+    <!-- Modal body -->
+    <div class="modal-body">
+      Saudi Arabia... The heart of the Arab and Islamic worlds, the investment powerhouse, and the hub connecting three continents. 
+    </div>
+
+    <!-- Modal footer -->
+    <div class="modal-footer">
+      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Copy</button>
+    </div>
+
+  </div>
+</div>
+</div>
+<div class="container-fluid bg-success-subtle w-100  p-3 mt-3 bg-body-tertiary rounded">
+<h1 class="text-center br-50">Development suggestions </h1>
+</div>
+<div class="container-fluid m-auto bg-success-subtle">
+<h2 class="fs-5 text-center">write suggest <a href="#"class="fs-5 a55">prsse here</a></h2>
+<button type="button" class="btn btn-primary d-block m-auto" data-bs-toggle="modal" data-bs-target="#Modal">
+send Message
+</button>
+<br>
+<label for="comment">Comments:</label>
+<textarea class="form-control" rows="5" id="comment" name="text">Saudi Arabia... The heart of the Arab and Islamic worlds, the investment powerhouse, and the hub connecting three continents.</textarea>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="Modal">
+<div class="modal-dialog">
+  <div class="modal-content">
+
+    <!-- Modal Header -->
+    <div class="modal-header">
+      <h4 class="modal-title">copied text</h4>
+      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+    </div>
+
+    <!-- Modal body -->
+    <div class="modal-body">
+      Saudi Arabia... The heart of the Arab and Islamic worlds, the investment powerhouse, and the hub connecting three continents. 
+    </div>
+
+    <!-- Modal footer -->
+    <div class="modal-footer">
+      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Copy</button>
+    </div>
+
+  </div>
+</div>
+</div>
+<div class="container-fluid bg-success-subtle w-100  p-3 mt-3 bg-body-tertiary rounded">
+<h1 class="text-center br-50">Aspirations for the future </h1>
+</div>
+<div class="container-fluid m-auto bg-success-subtle">
+<h2 class="fs-5 text-center">write suggest <a href="#"class="fs-5 a55">prsse here</a></h2>
+<button type="button" class="btn btn-primary d-block m-auto" data-bs-toggle="modal" data-bs-target="#Modal">
+send Message
+</button>
+<br>
+<label for="comment">Comments:</label>
+<textarea class="form-control" rows="5" id="comment" name="text">Saudi Arabia... The heart of the Arab and Islamic worlds, the investment powerhouse, and the hub connecting three continents.</textarea>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="Modal">
+<div class="modal-dialog">
+  <div class="modal-content">
+
+    <!-- Modal Header -->
+    <div class="modal-header">
+      <h4 class="modal-title">copied text</h4>
+      <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+    </div>
+
+    <!-- Modal body -->
+    <div class="modal-body">
+      Saudi Arabia... The heart of the Arab and Islamic worlds, the investment powerhouse, and the hub connecting three continents. 
+    </div>
+
+    <!-- Modal footer -->
+    <div class="modal-footer">
+      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Copy</button>
+    </div>
+
+  </div>
+</div>
+</div>
+
+<br>
+<div class="vd container-fluid col-sm-12">
+<iframe class="col-sm-12" width="420" height="505" src="https://www.youtube.com/embed/gwmHU4PblHo" title="الذكرى الخامسة لـ #رؤية_السعودية_2030 | #رؤية_2030_واقع_يتحقق" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe class="col-sm-12" width="420" height="505" src="https://www.youtube.com/embed/vxHPS1VaJuQ" title="تعريف #رؤية_السعودية_2030" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div class="container-fluid bg-tertiary w-100  p-3 mt-3  bg-body-tertiary rounded">
+  <h1 class="text-center br-50 hg">Development of Saudi Arabia cities </h1>
+</div>
+<div class="container-fluid bg-success-subtle row d-flex justify-content-around align-items-center m-auto p-3 doo">
+<div class="container col-sm-12 card xx" style="width: 25rem;">
+  <img src="img/899f6990826171.Y3JvcCwxNjU2LDEyOTYsNDksMA.png" class="card-img-top"height="150px" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">neom</h5>
+    <p class="card-text"> NEOM is the first private area in the world which  extends over three countries . In fact , it is built  to become  a vibrant new destination</p>
+    <a href="#" class="btn btn-primary">view profile</a>
+    
+  </div>
+</div>
+
+
+<div class="container col-xl-4 col-lg-4 col-sm-12  card xx" style="width: 25rem;">
+  <img src="img/EdNRulnWoAAyCTR.jpg" class="card-img-top"height="150px" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">hail</h5>
+    <p class="card-text">Many civilizations have spread over the land of Hail. It is one of the most ancient fortresses in the Arabian Peninsula,The land of Hail is greet</p>
+    <a href="#" class="btn btn-primary">view profile</a>
+  </div>
+</div>
+<div class="container   card xx" style="width: 25rem;">
+  <img src="img/Fujairah-qseemUAE-768x427.jpg" class="card-img-top"height="150px" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">elqassim</h5>
+    <p class="card-text">Al-Qassim has the lowest share of population living below local poverty line in Saudi Arabia.Qassim region is characterized .</p>
+    <a href="#" class="btn btn-primary">view profile</a>
+  </div>
+</div>
+<div class="container   card xx" style="width: 25rem;">
+  <img src="img/ppoopp.jpg" class="card-img-top"height="150px" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">EL-Riyadh</h5>
+    <p class="card-text">Riyadh is the political and economic interface of Saudi Arabia, as it contains the headquarters of sovereign institutions in the state</p>
+    <a href="#" class="btn btn-primary">view profile</a>
+  </div>
+</div>
+</div>
+<div class="container-fluid row bg-success-subtle d-flex justify-content-around align-items-center m-auto p-3 doo">
+  <div class="container col-sm-12 card xx" style="width: 25rem; ">
+    <img src="img/11111.webp" class="card-img-top" height="150px" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">eldammam</h5>
+      <p class="card-text">Dammam, city, eastern Saudi Arabia. It lies on the Persian Gulf northwest of Bahrain Island and forms a larger metropolitan.</p>
+      <a href="#" class="btn btn-primary">view profile</a>
+      
+    </div>
+  </div>
+  
+  <div class="container col-xl-4 col-lg-4 col-sm-12  card xx" style="width: 25rem;">
+    <img src="img/apha.jpg" class="card-img-top"height="150px" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">abha</h5>
+      <p class="card-text">Abha is one of the most important cities in Saudi Arabia. It is situated in south-western Saudi Arabia.  </p>
+      <a href="#" class="btn btn-primary">view profile</a>
+    </div>
+  </div>
+  <div class="container   card xx" style="width: 25rem;">
+    <img src="img/jjjjj.jpg" class="card-img-top"height="150px" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">jeddah</h5>
+      <p class="card-text">Jeddah is the largest city in Saudi Arabia and the country’s commercial capital. It is one of the world’s fastest-growing cities</p>
+      <a href="#" class="btn btn-primary">view profile</a>
+    </div>
+  </div>
+  <div class="container   card xx" style="width: 25rem;">
+    <img src="img/kh.jpg" class="card-img-top"height="150px" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">khobar</h5>
+      <p class="card-text"> city of Khobar is distinguished by its beautiful beaches on the Arabian Gulf. The city of Khobar is considered one of the modern cities.</p>
+      <a href="#" class="btn btn-primary">view profile</a>
+    </div>
+  </div>
+  </div>
+  </section>
+ 
+  <div class="container-fluid bg-tertiary w-100  p-3 mt-3  bg-body-tertiary rounded">
+    <h1 class="text-center br-50 hg">EL-Riyadh Expo 2030 </h1>
+  </div>
+  
+  <div class=" d-flex  container m-auto  mt-3 bg-body-tertiary row  col-sm-12 ">
+  <div class="col-xl-4  col-sm-12 ">
+  <div class="card dd " style="width:400px">
+    <img class="card-img-top " src="img/1701324502002.jpeg" height="400px" alt="Card image">
+    <div class="card-img-overlay bg-dark opacity-75 ">
+      <h4 class="card-title text-light">EL-Riyadh</h4>
+      <p class="card-text text-light">Expo 2030</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+      <br>
+      <img src="img/OIPpupupi (2).jpeg" width="120px" class="kk rounded-circle mt-5" alt="Cinque Terre">
+    </div>
+  </div>
+  </div>
+  <div class="col-xl-4 col-sm-12 ">
+  <div class="  card dd" style="width:400px">
+    <img class="card-img-top " src="img/GAJouZJW8AAStK3.jpg" height="400px" alt="Card image">
+    <div class="card-img-overlay bg-dark opacity-75 ">
+      <h4 class="card-title text-light">EL-Riyadh</h4>
+      <p class="card-text text-light">Expo 2030</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+      <br>
+      <img src="img/OIPpupupi (2).jpeg" width="120px" class="kk rounded-circle mt-5" alt="Cinque Terre">
+    </div>
+  </div>
+  </div>
+  <div class="col-xl-4 col-sm-12 ">
+  <div class="  card dd" style="width:400px">
+    <img class="card-img-top " src="img/2fd9bfe3-9db4-4047-a164-44c5d5746c01.jpg" height="400px"  alt="Card image">
+    <div class="card-img-overlay bg-dark opacity-75 ">
+      <h4 class="card-title text-light">EL-Riyadh</h4>
+      <p class="card-text text-light">Expo 2030</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+      <br>
+      <img src="img/OIPpopopoppopoopopop (2).jpeg" width="120px" class="kk rounded-circle mt-5" alt="Cinque Terre">
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-sm-12 container-fluid bg-success-subtle diff">
+<div class="container-fluid h-100 qwe mt-4">
+  
+</div>
+</div>
+<hr>
+<footer id="footer " class="footer mt-5 bg-success-subtle">
+  <div class="container footer-top">
+    <div class="row gy-4">
+      <div class="col-lg-4 col-md-6 footer-about">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img src="img/riyadh-expo-2030-.jpg" width="150" height="100"alt="...."/>
+        </a>
+        <div class="footer-contact pt-3">
+          <p>Rafha - Northern Border</p>
+          <p> Kingdom of Saudi Arabia's</p>
+          <p class="mt-3"><strong>Phone:</strong> <span>+966591451007</span></p>
+          <p><strong>Email:</strong> <span>mezasaed26895@gmail.com</span></p>
+        </div>
+        <div class="social-links d-flex  justify-content-start m-0 1 align-items-start fs-1">
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+          <a href="#"> <i class="fab fa-whatsapp-square"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>About the Kingdom</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Terms of service</a></li>
+          <li><a href="#">Privacy policy</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Service Agreement</a></li>
+          <li><a href="#">Product Management</a></li>
+          <li><a href="#">About the National </a></li>
+          <li><a href="#">Over view</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Important Links</h4>
+        <ul>
+          <li><a href="#">Reports & Data</a></li>
+          <li><a href="#">Excepturi dignissimos</a></li>
+          <li><a href="#">Sustain Development</a></li>
+          <li><a href="#"> data protection</a></li>
+          <li><a href="#">Artificial Intelligence</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Digital Communiqué</a></li>
+          <li><a href="#">Report fake news</a></li>
+          <li><a href="#">Accessibility</a></li>
+          <li><a href="#">Subscribe</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+<hr>
+  <div class="container copyright text-center mt-4">
+    <p>© <span>Copyright</span> <strong class="px-1 sitename">Saudi Vision 2030</strong> <span>All Rights Reserved</span></p>
+    <div class="credits">
+     
+      Designed by <a href="https://bootstrapmade.com/">mohamed saeed</a>
+    </div>
+  </div>
+
+</footer>
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+<div id="preloader"></div>
+
+</div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
